@@ -1,3 +1,5 @@
+## 支持通配符的SM9标识加密方案实现（基于 PBC Library）
+### 测试环境：Ubuntu 20.04 及以上
 ### Install PBC Library
 ```bash
 wget https://crypto.stanford.edu/pbc/files/pbc-0.5.14.tar.gz
@@ -28,4 +30,9 @@ cd wildcarded-sm9
 mkdir build && cd build
 cmake ..
 make
+```
+
+### Run
+```bash
+./wildcarded_sm9_test
 ```
